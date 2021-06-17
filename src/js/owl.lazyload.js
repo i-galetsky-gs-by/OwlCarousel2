@@ -56,7 +56,7 @@
 						// If the carousel is looping also preload images that are to the "left"
 						if (settings.loop) {
               position -= settings.lazyLoadEager;
-              n++;
+              n += settings.lazyLoadEager;
             }
 					}
 
